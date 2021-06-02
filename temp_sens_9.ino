@@ -1,8 +1,8 @@
 #include <DHT.h>  // Including library for dht
 #include <ESP8266WiFi.h> //Including library for NodeMCU
-String apiKey = "OTAET0F7S7MNZSFW"; //Write API key for your channel in thingspeak
-const char *ssid =  "JMD BROADBAND"; // Your Wifi SSID and Password
-const char *pass =  "sypher2op";
+String apiKey = "API KEY"; //Write API key for your channel in thingspeak
+const char *ssid =  "Wifi Name"; // Your Wifi SSID and Password
+const char *pass =  "Wifi password";
 const char* server = "api.thingspeak.com";
 #define DHTPIN 0 //Pin where Data is going to be readed
 DHT dht(DHTPIN, DHT11);
